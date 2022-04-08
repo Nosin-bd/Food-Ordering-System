@@ -21,31 +21,28 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Food Ordering System
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Online Food Delivery System is mainly a system that can help any restaurant to deliver their food to customer’s home easily and without any issues. Here customers can order the food that they want to eat from their desired restaurant. This system can be used as a software or website. Also, it helps to keep records of the orders that were made.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## Deployment
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+To deploy this project run
+- Open Xampp/Wamp and start apache server and mysql
+- Create database 'food _ordering_system'
+- Run this commands in project root directory
 
-### Premium Partners
+```bash
+    composer install
+    php artisan migrate
+    php artisan serve
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### About this project?
+
+- In the default route, you will see the homepage and select the appropritate resturant and click the check menu button.If you are an authenticated user, you will redirect to order page.You must be an authenticated user for order any food from any resturant.
+![ezcv logo](https://raw.githubusercontent.com/Nosin-bd/food-ordering-system/master/.github/logo.png)
 
 ## Contributing
 
