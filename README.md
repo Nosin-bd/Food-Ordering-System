@@ -42,7 +42,15 @@ To deploy this project run
 ### About this project?
 
 - In the default route, you will see the homepage and select the appropritate resturant and click the check menu button.If you are an authenticated user, you will redirect to order page.You must be an authenticated user for order any food from any resturant.
-![ezcv logo](https://raw.githubusercontent.com/Nosin-bd/food-ordering-system/master/.github/logo.png)
+![ezcv logo](https://raw.githubusercontent.com/Nosin-bd/food-ordering-system/master/public/screenshot/home.png)
+
+- In the order page, you will see the selected resturant's details and it's menu list. After clicking order button of a particular menu, order form will be appeared. By providing all the informantion of order form, you can easily order a particular menu.You can also track your order.
+![ezcv logo](https://raw.githubusercontent.com/Nosin-bd/food-ordering-system/master/public/screenshot/order.png)
+![ezcv logo](https://raw.githubusercontent.com/Nosin-bd/food-ordering-system/master/public/screenshot/orderform.png)
+
+- The resturant vendor will contact with you as soon as possible and ensure your order. They can manage the status of the order based on the delevery.
+![ezcv logo](https://raw.githubusercontent.com/Nosin-bd/food-ordering-system/master/public/screenshot/admin.png)
+
 
 ## Contributing
 
